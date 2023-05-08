@@ -24,28 +24,28 @@
         <div>
             <p>Q2- Write a callback function to print number 1 to 7, in which 1 should be printed after 1sec, 2 should be print after 2sec and three should print after 3sec</p>
             <pre>
-                let count = 0;
+              let count1 = 0;
+setTimeout(()=>{
+    console.log(++count1);
+    setTimeout(()=>{
+        console.log(++count1);
+        setTimeout(()=>{
+            console.log(++count1);
+            setTimeout(()=>{
+                console.log(++count1);
                 setTimeout(()=>{
-                    console.log(++count);
+                    console.log(++count1);
                     setTimeout(()=>{
-                        console.log(++count);
+                        console.log(++count1);
                         setTimeout(()=>{
-                            console.log(++count);
-                            setTimeout(()=>{
-                                console.log(++count);
-                                setTimeout(()=>{
-                                    console.log(++count);
-                                    setTimeout(()=>{
-                                        console.log(++count);
-                                        setTimeout(()=>{
-                                         console.log(++count);
-                                        }, 7000);
-                                    }, 6000);
-                                }, 5000);
-                            }, 4000);
-                        }, 3000);
-                    }, 2000);
-                },1000);
+                            console.log(++count1);
+                        }, 7000);
+                    }, 6000);
+                }, 5000);
+            }, 4000);
+        }, 3000);
+    }, 2000);
+},1000);
             </pre>
         </div>
         <div>
